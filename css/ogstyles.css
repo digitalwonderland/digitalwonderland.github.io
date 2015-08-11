@@ -1081,7 +1081,9 @@ nav#filter li {
 }
 .contact-parlex {
 	padding-top: 0px;
-	background-image: url('../images/banner-bg.jpg');
+	background-image: url('../images/banner-bgg.jpg');
+	background-color: #056;
+	opacity: 0.75;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
