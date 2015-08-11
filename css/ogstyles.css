@@ -288,7 +288,7 @@ h2, .h2 {
 	font: bold 19px;
 	vertical-align: middle;
 	width: 293px;
-	border: 1px solid #000;
+	border: 1px solid #fff;
 	padding: 10px;
 }
 #subscribe input[type="button"] {
@@ -341,7 +341,7 @@ h2, .h2 {
 	top: 0px;
 	width: 100%;
 	bottom: 0px;
-	opacity: 0.8;
+	opacity: 0.3;
 }
 /* IE7 inline-block hack */
 *+html .styled div {
@@ -635,8 +635,8 @@ a.arrow-link:hover {
 	color: #fff;
 }
 .colord {
-	background: #056;
-	opacity:0.8;
+	background: #057; /*#056*/
+	opacity:0.9;
 }
 .colord p {
 	color: #f9f9f9;
@@ -718,23 +718,20 @@ img, video, iframe, embed, object {
 	margin: auto auto 80px;
 }
 #aboutUs {
-	background: #fff;
-	opacity: 0.4;
-	padding-top: 50px;
-	padding-bottom: 25px;
+	background: linear-gradient(to top left, #ee0000, #ff5200, orange, #ffff00 );
 	overflow: hidden;
 }
 #aboutUs .feature {
-	margin-top: 30px;
-	margin-bottom: 54px;
+/*	margin-top: 30px;
+	margin-bottom: 54px;*/
 }
 #aboutUs .right {
-	padding-left: 32px;
-	float: right;
+/*	padding-left: 32px;
+	float: right;*/
 }
 #aboutUs .left {
-	padding-right: 32px;
-	float: left;
+/*	padding-right: 32px;
+	float: left;*/
 }
 #aboutUs h3 {
 	font: 18px/34px;
@@ -742,12 +739,14 @@ img, video, iframe, embed, object {
 	letter-spacing: 1px;
 	color: #222;
 }
+
+
 .fluid-video-wrapper {
 	margin-top: 18px;
 }
 #aboutUs .left {
-	padding-right: 32px;
-	float: left;
+/*	padding-right: 32px;
+	float: left;*/
 }
 #aboutUs .right {
 	float: right;
@@ -784,6 +783,7 @@ img, video, iframe, embed, object {
 }
 #contactUs {
 /*background: #FF5200;*/;
+
 }
 #contactUs .btn {
 	border-radius: 0px !important;
@@ -1102,291 +1102,116 @@ nav#filter li {
 	margin: 0px;
 }
 
-/*new css*/
-
-
-/*.main-title{
-	margin:0;
-	padding:0;
-	margin-top: 5vh;
-	width:100vw;
-	height: auto;
-    position: relative;
-    font-family: 'Khalijaka', helvetica, arial;
-    font-weight: lighter;
-    /*font-size: 4.5em;*/
-    /*color: #fff;
-    background-color: none;
-    text-align: center;
-    float:left;
-    overflow: hidden;
-}*/
-    /*email 2 css*/
-
-/*.email-wrapper {
-	margin:0;
-	padding:0;
-	height:400px;
-}
-*/
-#bg {
-	margin:0;
-	padding:0;
-	position: absolute;
-	left: 0px;
-	top: 0px;
-	height:100%;
-	width: 100%;
-	background: none;
-		/*background: #ffffff; background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPHJhZGlhbEdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IjUwJSIgcj0iNzUlIj4KICAgIDxzdG9wIG9mZnNldD0iNDAlIiBzdG9wLWNvbG9yPSIjZmZmZmZmIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2JiYmJiYiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9yYWRpYWxHcmFkaWVudD4KICA8cmVjdCB4PSItNTAiIHk9Ii01MCIgd2lkdGg9IjEwMSIgaGVpZ2h0PSIxMDEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==); background: -moz-radial-gradient(center, ellipse cover,  #ffffff 40%, #bbbbbb 100%); background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(40%,#ffffff), color-stop(100%,#bbbbbb)); background: -webkit-radial-gradient(center, ellipse cover,  #ffffff 40%,#bbbbbb 100%); background: -o-radial-gradient(center, ellipse cover,  #ffffff 40%,#bbbbbb 100%); background: -ms-radial-gradient(center, ellipse cover,  #ffffff 40%,#bbbbbb 100%); background: radial-gradient(ellipse at center,  #ffffff 40%,#bbbbbb 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#bbbbbb',GradientType=1 );*/
-}
-.contact {
-	margin:0;
-	padding:0;
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	margin-left: -125px;
-	margin-top: -125px;
-	height: 250px;
-	width: 250px;
-	background: rgba(0, 0, 0, 0.1);
-	
-	border-radius: 2px;
-	-ms-border-radius: 2px;
-	-moz-border-radius: 2px;
-	-o-border-radius: 2px;
-	-webkit-border-radius: 2px;
-}
-.contact .envelope {
-	position: absolute;
-	height: 93px;
-	width: 165px;
-	left: 50%;
-	margin-left: -83px;
-	top: 50%;
-	margin-top: -50px;
-	background: #F9F9F9;
-	
-	transition: margin-top 300ms;
-	-ms-transition: margin-top 300ms;
-	-moz-transition: margin-top 300ms;
-	-o-transition: margin-top 300ms;
-	-webkit-transition: margin-top 300ms;
-}
-.contact:hover .envelope {
-	transition-delay: 150ms;
-	-ms-transition-delay: 150ms;
-	-moz-transition-delay: 150ms;
-	-o-transition-delay: 150ms;
-	margin-top: -20px;
-}
-.contact .envelope .top {
-	position: absolute;
-	top: -3px;
-	left: 0px;
-	width: 100%;
-	height: 73px;
-	z-index: 30;
-	overflow: hidden;
-					
-	transform-origin: top;
-	-ms-transform-origin: top;
-	-moz-transform-origin: top;
-	-o-transform-origin: top;
-	-webkit-transform-origin: top;
-				
-	transition: transform 300ms 150ms, z-index 0ms 150ms, height 300ms 0ms, top 300ms 0ms;
-	-ms-transition: -ms-transform 300ms 150ms, z-index 0ms 150ms, height 300ms 0ms, top 300ms 0ms;
-	-moz-transition: -moz-transform 300ms 150ms, z-index 0ms 150ms, height 300ms 0ms, top 300ms 0ms;
-	-o-transition: -o-transform 300ms 150ms, z-index 0ms 150ms, height 300ms 0ms, top 300ms 0ms;
-	-webkit-transition: -webkit-transform 300ms 150ms, z-index 0ms 150ms, height 300ms 0ms, top 300ms 0ms;
-}
-.contact:hover .envelope .top {
-	transition: transform 300ms 0ms, height 300ms 150ms, top 300ms 150ms;
-	-ms-transition: -ms-transform 300ms 0ms, height 300ms 150ms, top 300ms 150ms;
-	-moz-transition: -moz-transform 300ms 0ms, height 300ms 150ms, top 300ms 150ms;
-	-o-transition: -o-transform 300ms 0ms, height 300ms 150ms, top 300ms 150ms;
-	-webkit-transition: -webkit-transform 300ms 0ms, height 300ms 150ms, top 300ms 150ms;
-	
-	height: 10px;
-	top: -60px;
-	
-	transform: rotateX(180deg);
-	-ms-transform: rotateX(180deg);
-	-moz-transform: rotateX(180deg);
-	-o-transform: rotateX(180deg);
-	-webkit-transform: rotateX(180deg);
-}
-.contact .envelope .outer {
-	position: absolute;
-	bottom: 0px;
-	left: 0px;
-	border-left: 83px solid transparent;
-	border-right: 82px solid transparent;
-	border-top: 70px solid #EEE;
-}
-.contact .envelope .outer .inner {
-	position: absolute;
-	left: -81px;
-	top: -73px;
-	border-left: 81px solid transparent;
-	border-right: 80px solid transparent;
-	border-top: 68px solid #333;
-}
-.contact .envelope .bottom {
-	position: absolute;
-	z-index: 20;
-	bottom: 0px;
-	left: 2px;
-	border-left: 81px solid transparent;
-	border-right: 80px solid transparent;
-	border-bottom: 45px solid #333;
-}
-.contact .envelope .left {
-	position: absolute;
-	z-index: 20; top: 0px;
-	left: 0px;
-	border-left: 81px solid #333;
-	border-top: 45px solid transparent;
-	border-bottom: 45px solid transparent;
-}
-.contact .envelope .right {
-	position: absolute;
-	z-index: 20;
-	top: 0px;
-	right: 0px;
-	border-right: 80px solid #333;
-	border-top: 45px solid transparent;
-	border-bottom: 45px solid transparent;
-}
-.contact .envelope .cover {
-	position: absolute;
-	z-index: 15;
-	bottom: 0px;
-	left: 0px;
-	height: 55%;
-	width: 100%;
-	background: #EEE;
-}
-.contact .envelope .paper {
-	position: absolute;
-	height: 83px;
-	padding-top: 10px;
-	width: 100%;
-	top: 0px;
-	left: 0px;
-	background: #F9F9F9;
-	z-index: 10;
-	transition: margin-top 300ms 0ms;
-	-ms-transition: margin-top 300ms 0ms;
-	-moz-transition: margin-top 300ms 0ms;
-	-o-transition: margin-top 300ms 0ms;
-	-webkit-transition: margin-top 300ms 0ms;
-}
-.contact:hover .envelope .paper {
-	margin-top: -60px;
-	transition: margin-top 300ms 150ms;
-	-ms-transition: margin-top 300ms 150ms;
-	-moz-transition: margin-top 300ms 150ms;
-	-o-transition: margin-top 300ms 150ms;
-	-webkit-transition: margin-top 300ms 150ms;
-}
-.contact .envelope .paper a {
-	position: relative;
-	display: block;
-	font-size: 14px;
-	margin: 5px;
-	margin-bottom: 0px;
-	text-align: center;
-	color: #333;
-	text-decoration: none;
-}
-.contact .envelope .paper a.call .i {
-	position: absolute;
-	top: 2px;
-	left: 20px;
-	display: inline-block;
-	width: 3px;
-	height: 5px;
-	border-width: 5px 0 5px 2px;
-	border-style: solid;
-	border-color: #555;
-	background: transparent;
-	
-	transform: rotate(-30deg);
-	-ms-transform: rotate(-30deg);
-	-moz-transform: rotate(-30deg);
-	-o-transform: rotate(-30deg);
-	-webkit-transform: rotate(-30deg);
-
-	border-top-left-radius: 3px 5px;
-	border-bottom-left-radius: 3px 5px;
-	-moz-border-radius-topleft: 3px 5px;
-	-moz-border-radius-bottomleft: 3px 5px;
-	-webkit-border-top-left-radius: 3px 5px;
-	-webkit-border-bottom-left-radius: 3px 5px;
-																																			
-	transition: border-color 300ms;
-	-ms-transition: border-color 300ms;
-	-moz-transition: border-color 300ms;
-	-o-transition: border-color 300ms;
-	-webkit-transition: border-color 300ms;
-}
-.contact .envelope .paper a {
-	color: #333;
-
-	transition: color 200ms;
-	-ms-transition: color 200ms;
-	-moz-transition: color 200ms;
-	-o-transition: color 200ms;
-	-webkit-transition: color 200ms;
-}
-.contact .envelope .paper a:hover {
-	color: #666666;
-}
-.contact .envelope .paper a.call:hover .i {
-	border-color: #DDD;
-}
-.contact .envelope .paper a.mail .i {
-	position: absolute;
-	top: 0px;
-	left: 17px;
-	display: inline-block;
-	font-size: 13px;
-	font-weight: bold;
-}
-
-.email-wrapper {
-	float:left;
-	width: 100vw;
-}
-
-.hello-email{
-	height: 400px;
-}
-
-.hello-email>h2{
-	font-size:2em;
-}
-
-.hello-email>p{
-	font-size: 1.5em;
-}
+/*extra css styling*/
 
 /*blurb css*/
 
 .blurb>p {
 	font-size: 26px;
 	line-height: 1;
-	color:#474747;
+	color:#f5f5f5;
 }
 
 .blurb>h2 {
 	padding-top:60px;;
-	color:#3f3f3f;
+	color:#f5f5f5;
 }
 
 .footer-email{
 	text-align: center;
+}
+
+
+/*codepen email form*/
+
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+
+/*body {
+	background-color:#c7c7c7;
+	color: #fff;
+  width:100vw;
+  height:auto;
+	font-weight: 400;
+	font-size: 1em;
+	font-family: 'Lato', Arial, sans-serif;
+	margin:0;
+	padding:0;
+	padding-bottom:60px;
+}*/
+.ccheader {
+	margin: 0 auto;
+	padding: 2em;
+	text-align: center;
+}
+
+.ccheader h1 {
+	margin: 0;
+	font-weight: 300;
+	font-size: 2.5em;
+	line-height: 1.3;
+}
+.ccheader {
+	margin: 0 auto;
+	padding: 2em;
+	text-align: center;
+}
+
+.ccheader h1 {
+	margin: 0;
+	font-weight: 300;
+	font-size: 2.5em;
+	line-height: 1.3;
+}
+
+/* Form CSS*/
+.ccform {
+   margin: 0 auto;
+    width: 80%;
+}
+.ccfield-prepend{
+	margin-bottom:10px;
+	width:100%;
+}
+
+.ccform-addon{
+	color:#fff; 
+	float:left;
+	padding:8px;
+	width:8%;
+	background:none;
+	text-align:center;	
+}
+
+.ccformfield {
+	color:#f26531;
+	font-weight: 300; 
+	background:#fff;
+	opacity:none;
+	border:none;
+	padding:15.5px;
+	width:91.9%;
+	display:block;
+	font-family: 'Lato',Arial,sans-serif;
+	font-size:14px;
+}
+
+
+.ccformfield {
+	font-family: 'Lato',Arial,sans-serif;
+}
+.ccbtn{
+	display:block;
+	border:none;
+	background:orange;
+	float:right;
+	color:#FFFFFF;
+	padding:10px;
+	cursor:pointer;
+	text-decoration:none;
+	font-weight:bold;
+}
+.ccbtn:hover{
+	background:#ff5200;
+
 }
