@@ -4,6 +4,20 @@
          url('Khalijaka.ttf') format("truetype");
 }
 
+@font-face{
+    font-family: 'Besom';
+    src: url('../font/fonts/Besom.ttf') format("truetype"),
+         url('Besom.ttf') format("truetype");
+}
+
+@font-face{
+    font-family: 'Lobster';
+    src: url('../font/fonts/Lobster.otf') format("opentype"),
+         url('Lobster.otf') format("opentype");
+}
+
+
+
 @import url(http://fonts.googleapis.com/css?family=Montserrat);
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,600);
@@ -421,10 +435,12 @@ h2, .h2 {
 #home .heading h2 {
 	color: #fff;
 	font-size: 45px !important;
+	font-family: 'Lobster', Helvetica, sans-serif;
 }
 #home .heading strong {
 	color: #fff;
 	font-size: 30px;
+	font-family: 'Besom', Helvetica, sans-serif;
 	font-weight: normal;
 }
 /* Header 
