@@ -429,7 +429,7 @@ h2, .h2 {
 	font-size: 30px;
 	font-weight: normal;
 }
-/* Header 
+/* Header
 ----------------------------------------------*/
 #section-top {
 	background: #4E4E4E;
@@ -505,7 +505,7 @@ h2, .h2 {
 	text-shadow: 0px 1px 2px rgba(0, 0, 0, .2);
 }
 /*.carousel-inner*/
- 
+
 .actionPanel {
 	padding: 25px 0;
 	background: #FF5200;
@@ -1086,7 +1086,7 @@ nav#filter li {
 }
 .contact-parlex {
 	padding-top: 0px;
-	background-image: url('../images/banner-bg.jpg');
+	background: url('../images/banner-bg.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -1118,113 +1118,113 @@ nav#filter li {
 
 /*contact form*/
 
-#contact { 
+#contact {
     margin:0;
     padding:0;
     /*width: 100vw;*/
     height:350px;
-    background: none; 
-    /*margin-top: 15px;*/ 
+    background: none;
+    /*margin-top: 15px;*/
     /*float:center;*/
     text-align: center;
-    overflow: hidden; 
+    overflow: hidden;
 }
 
-#contact .desc { 
+#contact .desc {
 }
-#contact .desc h2 { 
+#contact .desc h2 {
 	margin:0;
 	padding: 0;
-    font-family: Helvetica, Tahoma, sans-serif; 
-    font-weight: normal; 
-    letter-spacing: -0.03em; 
-    color: #565656; 
-    font-size: 2.4em; 
+    font-family: Helvetica, Tahoma, sans-serif;
+    font-weight: normal;
+    letter-spacing: -0.03em;
+    color: #565656;
+    font-size: 2.4em;
     margin-bottom: 8px; }
 
-#contact .desc p { 
-    font-family: Arial, Verdana, sans-serif; 
-    font-size: 1.2em; 
-    color: #666; 
-    line-height: 1.3em; 
+#contact .desc p {
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 1.2em;
+    color: #666;
+    line-height: 1.3em;
     margin-bottom: 15px; }
 
-#contact .formblock { 
-    display: block; 
-    margin-bottom: 11px; 
+#contact .formblock {
+    display: block;
+    margin-bottom: 11px;
 }
-#contact .formblock label { 
-    font-size: 1em; 
-    display: block; 
-    font-style: italic; 
-    font-weight: normal; 
-    color: #444; 
-    font-family: Helvetica, arial, sans-serif; 
-    color: none; 
-}
-
-#contact .formblock .txt { 
-    padding: 4px 6px; 
-    font-size: 1.6em; 
-    font-family: Arial, Tahoma, sans-serif; 
-    color: #565656; 
-    width: 50vw; 
-}
-#contact .formblock .txtarea { 
-    font-size: 1.5em; 
-    font-family: Arial, Tahoma, sans-serif; 
-    padding: 3px 5px; 
-    color: #666; 
-    width: 50vw; 
-    height: 25vh; 
+#contact .formblock label {
+    font-size: 1em;
+    display: block;
+    font-style: italic;
+    font-weight: normal;
+    color: #444;
+    font-family: Helvetica, arial, sans-serif;
+    color: none;
 }
 
-#contact .formblock .txtarea { 
-    font-size: 1.5em; 
-    font-family: Arial, Tahoma, sans-serif; 
-    padding: 3px 5px; 
-    color: #666; 
-    width: 50vw; 
-    height: 13vh; 
+#contact .formblock .txt {
+    padding: 4px 6px;
+    font-size: 1.6em;
+    font-family: Arial, Tahoma, sans-serif;
+    color: #565656;
+    width: 50vw;
+}
+#contact .formblock .txtarea {
+    font-size: 1.5em;
+    font-family: Arial, Tahoma, sans-serif;
+    padding: 3px 5px;
+    color: #666;
+    width: 50vw;
+    height: 25vh;
 }
 
-#contact .formblock .txtarea { 
-    font-size: 1.5em; 
-    font-family: Arial, Tahoma, sans-serif; 
-    padding: 3px 5px; 
-    color: #666; 
-    width: 50vw; 
-    height: 13vh; 
+#contact .formblock .txtarea {
+    font-size: 1.5em;
+    font-family: Arial, Tahoma, sans-serif;
+    padding: 3px 5px;
+    color: #666;
+    width: 50vw;
+    height: 13vh;
 }
 
-#contact .formblock .error { 
-    font-weight: bold; 
-    font-size: 1.2em; 
-    font-style: normal; 
-    font-family: Arial, Tahoma, sans-serif; 
-    color: #9d3131; 
+#contact .formblock .txtarea {
+    font-size: 1.5em;
+    font-family: Arial, Tahoma, sans-serif;
+    padding: 3px 5px;
+    color: #666;
+    width: 50vw;
+    height: 13vh;
 }
 
-#contact .info { 
-    font-weight: bold; 
-    font-size: 1.3em; 
-    color: #59913d; 
-    margin-bottom: 10px; 
-    font-family: Arial, Tahoma, sans-serif; 
+#contact .formblock .error {
+    font-weight: bold;
+    font-size: 1.2em;
+    font-style: normal;
+    font-family: Arial, Tahoma, sans-serif;
+    color: #9d3131;
 }
 
-#contact p.tick { 
-    font-family: Arial, Helvetica, sans-serif; 
-    font-style: italic; 
-    font-size: 1.2em; 
-    color: #3e669c; 
+#contact .info {
+    font-weight: bold;
+    font-size: 1.3em;
+    color: #59913d;
+    margin-bottom: 10px;
+    font-family: Arial, Tahoma, sans-serif;
 }
 
-#contact .subbutton { 
-    padding: 3px 7px; 
-    font-size: 1.1em; 
-    font-family: "Lobster", Arial, Tahoma, sans-serif; 
-    color: #565656; 
+#contact p.tick {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 1.2em;
+    color: #3e669c;
+}
+
+#contact .subbutton {
+    padding: 3px 7px;
+    font-size: 1.1em;
+    font-family: "Lobster", Arial, Tahoma, sans-serif;
+    color: #565656;
     float:center;
     text-align:center;
     padding-bottom: 10px
@@ -1262,7 +1262,7 @@ nav#filter li {
 	height: 250px;
 	width: 250px;
 	background: rgba(0, 0, 0, 0.1);
-	
+
 	border-radius: 2px;
 	-ms-border-radius: 2px;
 	-moz-border-radius: 2px;
@@ -1278,7 +1278,7 @@ nav#filter li {
 	top: 50%;
 	margin-top: -50px;
 	background: #F9F9F9;
-	
+
 	transition: margin-top 300ms;
 	-ms-transition: margin-top 300ms;
 	-moz-transition: margin-top 300ms;
@@ -1300,13 +1300,13 @@ nav#filter li {
 	height: 73px;
 	z-index: 30;
 	overflow: hidden;
-					
+
 	transform-origin: top;
 	-ms-transform-origin: top;
 	-moz-transform-origin: top;
 	-o-transform-origin: top;
 	-webkit-transform-origin: top;
-				
+
 	transition: transform 300ms 150ms, z-index 0ms 150ms, height 300ms 0ms, top 300ms 0ms;
 	-ms-transition: -ms-transform 300ms 150ms, z-index 0ms 150ms, height 300ms 0ms, top 300ms 0ms;
 	-moz-transition: -moz-transform 300ms 150ms, z-index 0ms 150ms, height 300ms 0ms, top 300ms 0ms;
@@ -1319,10 +1319,10 @@ nav#filter li {
 	-moz-transition: -moz-transform 300ms 0ms, height 300ms 150ms, top 300ms 150ms;
 	-o-transition: -o-transform 300ms 0ms, height 300ms 150ms, top 300ms 150ms;
 	-webkit-transition: -webkit-transform 300ms 0ms, height 300ms 150ms, top 300ms 150ms;
-	
+
 	height: 10px;
 	top: -60px;
-	
+
 	transform: rotateX(180deg);
 	-ms-transform: rotateX(180deg);
 	-moz-transform: rotateX(180deg);
@@ -1424,7 +1424,7 @@ nav#filter li {
 	border-style: solid;
 	border-color: #555;
 	background: transparent;
-	
+
 	transform: rotate(-30deg);
 	-ms-transform: rotate(-30deg);
 	-moz-transform: rotate(-30deg);
@@ -1437,7 +1437,7 @@ nav#filter li {
 	-moz-border-radius-bottomleft: 3px 5px;
 	-webkit-border-top-left-radius: 3px 5px;
 	-webkit-border-bottom-left-radius: 3px 5px;
-																																			
+
 	transition: border-color 300ms;
 	-ms-transition: border-color 300ms;
 	-moz-transition: border-color 300ms;
