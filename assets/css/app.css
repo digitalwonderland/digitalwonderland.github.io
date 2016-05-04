@@ -604,6 +604,10 @@ label#mce-email {
 input#mc-embedded-subscribe.button {
   margin-top: 50px; }
 
+input#mc-embedded-subscribe.button:hover {
+      margin-top: 50px;
+      background: #34b484;  }
+
 #sbmt-btn {
   padding-top: 15px; }
 
