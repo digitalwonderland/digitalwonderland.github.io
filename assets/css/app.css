@@ -578,7 +578,7 @@ nav.btn-open {
   background: #a40000; }
 
 .wrap-nav ~ li ~ .title-li {
-  margin-left: 5px; }
+  padding-left: 15px; }
 
 ul.wrap-nav {
   padding: 75px 0px 50px !important; }
