@@ -598,8 +598,8 @@ input#mc-embedded-subscribe.button {
 #sbmt-btn {
   padding-top: 15px; }
 
-#sbmt-btn {
-  background-color: #34B484; }
+/*#sbmt-btn {
+  background-color: #34B484; }*/
 
 /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
 We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
