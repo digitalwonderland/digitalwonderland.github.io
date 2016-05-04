@@ -577,7 +577,7 @@ nav ul li a:hover {
 nav.btn-open {
   background: #a40000; }
 
-.wrap-nav ~ li ~ .title-li {
+.title-li~a {
   padding-left: 15px; }
 
 ul.wrap-nav {
