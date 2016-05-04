@@ -419,9 +419,9 @@ nav ul li a:hover {
 .button a {
   text-decoration: none; }
   
-  div.button{
-    background-color:none !important;
-  }
+  /*div.button{*/
+  /*  background-color:none !important;*/
+  /*}*/
 
 .btn-open:after {
   color: #333;
