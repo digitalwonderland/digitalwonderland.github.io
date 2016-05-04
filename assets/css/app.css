@@ -468,7 +468,7 @@ nav ul li a:hover {
 .wrap ul.wrap-nav {
   border-bottom: 1px solid #575757;
   text-transform: capitalize;
-  padding: 150px 0px 100px; }
+  padding: 75px 0px 50px; }
 
 .wrap ul.wrap-nav li {
   font-size: 20px;
@@ -480,7 +480,7 @@ nav ul li a:hover {
 .wrap ul.wrap-nav li a {
   color: #34B484;
   display: block;
-  padding: 8px 0;
+  padding: 4px 0;
   text-decoration: none;
   transition-property: all .2s linear 0s;
   -moz-transition: all .2s linear 0s;
