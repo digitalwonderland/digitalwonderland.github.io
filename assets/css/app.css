@@ -543,8 +543,10 @@ nav ul li a:hover {
   -o-transition: all .2s linear 0s; }
 
 .social-icon:hover {
-  background: #34B484;
-  color: #f0f0f0; }
+	background:#34B484;
+	background:linear-gradient( 45deg,#f26, #7fffd4);
+	color:#f0f0f0;
+}
 
 .social-icon i {
   margin-top: 12px; }
