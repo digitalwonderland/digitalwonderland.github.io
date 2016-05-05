@@ -611,6 +611,9 @@ input#mc-embedded-subscribe.button:hover {
 #sbmt-btn {
   padding-top: 15px; }
 
+li.title-li>a{
+  padding-left: 10px; }
+
 /*#sbmt-btn {
   background-color: #34B484; }*/
 
