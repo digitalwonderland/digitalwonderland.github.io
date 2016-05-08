@@ -4887,19 +4887,43 @@ h4 {
   font-size: 1.2rem;
 }
 
-@media only screen and (min-width: 20em) and (max-width: 30em) {
-  .mailchimp, #mc_embed_signup>form, [.form-group~=input]{
-    max-width: 320px !important;
-    min-width: 320px !important;
-  }
+@media only screen and (min-width: 20em) and (max-width: 500px) {
 
-  [.mailchimp~=input]{
+  input#mce-EMAIL.required.email.form-control{
     max-width: 320px !important;
     min-width: 320px !important;
-  }
-  input~*{
-    max-width:320px !important;
+
   }
 }
 
+@media only screen and (min-width: 501px) and (max-width: 800px) {
 
+  input#mce-EMAIL.required.email.form-control{
+    max-width: 450px !important;
+    min-width: 320px !important;
+  
+  }
+}
+
+input#mce-EMAIL.required.email.form-control{
+  float:center;
+}
+
+input#mc-embedded-subscribe.btn.btn__bottom--border.mailchimp__btn{
+  float:center;
+
+}
+
+.mailchimp{
+  width:100%;
+}
+
+form{
+    margin:0 auto;
+  }
+
+body, html{
+  margin:0;
+  padding:0;
+  max-width:100vw;
+}
