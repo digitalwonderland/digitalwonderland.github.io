@@ -287,7 +287,7 @@
   width: 80px;
   height: 80px;
   margin: 0 auto;
-  background: #f26;
+  background: #de3d83;
   -webkit-transform: matrix(0.9, 0.5, 0, 1, 0, 0);
   -ms-transform: matrix(0.9, 0.5, 0, 1, 0, 0);
       transform: matrix(0.9, 0.5, 0, 1, 0, 0);
@@ -301,13 +301,13 @@
   height: 100%; }
 
 .cube:before {
-  background: #279099;
+  background: #00b8b8;
   -webkit-transform: matrix(1, -1, 1, 0, 40, -80);
   -ms-transform: matrix(1, -1, 1, 0, 40, -80);
       transform: matrix(1, -1, 1, 0, 40, -80); }
 
 .cube:after {
-  background: #e59b2a;
+  background: #fbae17;
   -webkit-transform: matrix(1, -1, 0, 1, 80, -40);
   -ms-transform: matrix(1, -1, 0, 1, 80, -40);
       transform: matrix(1, -1, 0, 1, 80, -40); }
@@ -429,8 +429,8 @@ div.button:hover {
   text-decoration: none; }
 
 .btn-open:after {
-  height: 75px;
-  width: 75px;
+  height: 100px;
+  width: 100px;
   border: none !important;
   color: #333;
   content: "\f0c9";
@@ -4901,7 +4901,7 @@ h4 {
   input#mce-EMAIL.required.email.form-control{
     max-width: 450px !important;
     min-width: 320px !important;
-  
+
   }
 }
 
