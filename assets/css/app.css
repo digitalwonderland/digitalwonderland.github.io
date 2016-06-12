@@ -315,9 +315,9 @@ blue #0000fe
   margin: 0 auto;
   /*background: #de3d83;*/
   /*background: #37dfa2;*/
-  /*background: #177abb;*/
+  background: #177abb;
   /*background: #fe0000;*/
-  background: #fe1919;
+  /*background: #fe1919;*/
   -webkit-transform: matrix(0.9, 0.5, 0, 1, 0, 0);
   -ms-transform: matrix(0.9, 0.5, 0, 1, 0, 0);
       transform: matrix(0.9, 0.5, 0, 1, 0, 0);
@@ -333,9 +333,9 @@ blue #0000fe
 .cube:before { /*top*/
   /*background: #00b8b8;*/
   /*background: #81fbd2;*/
-  /*background: #7ed7f7;*/
+  background: #7ed7f7;
   /*background: #ff7f00;*/
-  background: #fbae17;
+  /*background: #fbae17;*/
   -webkit-transform: matrix(1, -1, 1, 0, 40, -80);
   -ms-transform: matrix(1, -1, 1, 0, 40, -80);
       transform: matrix(1, -1, 1, 0, 40, -80); }
@@ -344,8 +344,8 @@ blue #0000fe
   /*background: #fbae17;*/
   /*background: #18c281;*/
   /*background: #3603db;*/
-  /*background: #0000fe;*/
-  background: #1919fe;
+  background: #0000fe;
+  /*background: #1919fe;*/
   -webkit-transform: matrix(1, -1, 0, 1, 80, -40);
   -ms-transform: matrix(1, -1, 0, 1, 80, -40);
       transform: matrix(1, -1, 0, 1, 80, -40); }
