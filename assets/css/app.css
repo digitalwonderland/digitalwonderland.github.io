@@ -338,7 +338,8 @@ blue #0000fe
   background: #fbae17;
   -webkit-transform: matrix(1, -1, 1, 0, 40, -80);
   -ms-transform: matrix(1, -1, 1, 0, 40, -80);
-      transform: matrix(1, -1, 1, 0, 40, -80); }
+      transform: matrix(1, -1, 1, 0, 40, -80);
+    }
 
 .cube:after { /*right*/
   /*background: #fbae17;*/
@@ -348,7 +349,8 @@ blue #0000fe
   /*background: #00ffff;*/
   -webkit-transform: matrix(1, -1, 0, 1, 80, -40);
   -ms-transform: matrix(1, -1, 0, 1, 80, -40);
-      transform: matrix(1, -1, 0, 1, 80, -40); }
+      transform: matrix(1, -1, 0, 1, 80, -40);
+    -moz-transform: matrix(1, -1, 0, 1, 80, -40); }
 
 @-webkit-keyframes top {
   0%, 33.33%, 100% {
@@ -381,6 +383,9 @@ blue #0000fe
   50%, 83.33% {
     -webkit-transform: translate(0, 158px);
     transform: translate(0, 158px); } }
+
+
+
 
 html {
   background-color: #262626; }
