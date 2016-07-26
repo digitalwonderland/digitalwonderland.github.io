@@ -42,6 +42,20 @@
     -webkit-transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(158px, -158px);
     transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(158px, -158px); } }
 
+/*@-moz-keyframes n {
+  0%, 83.33%, 100% {
+    -webkit-transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(79px, -79px);
+    transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(79px, -79px); }
+  16.66% {
+    -webkit-transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(79px, -79px);
+    transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(79px, -79px); }
+  33.33%, 50% {
+    -webkit-transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(158px, -158px);
+    transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(158px, -158px); }
+  66.66% {
+    -webkit-transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(158px, -158px);
+    transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(158px, -158px); } }*/
+
 @keyframes n {
   0%, 83.33%, 100% {
     -webkit-transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(79px, -79px);
@@ -73,6 +87,20 @@
   66.66% {
     -webkit-transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(-158px, 158px);
     transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(-158px, 158px); } }
+
+/*@-moz-keyframes s {
+  0%, 83.33%, 100% {
+    -webkit-transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(-79px, 79px);
+    transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(-79px, 79px); }
+  16.66% {
+    -webkit-transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(-79px, 79px);
+    transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(-79px, 79px); }
+  33.33%, 50% {
+    -webkit-transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(-158px, 158px);
+    transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(-158px, 158px); }
+  66.66% {
+    -webkit-transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(-158px, 158px);
+    transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(-158px, 158px); } }*/
 
 @keyframes s {
   0%, 83.33%, 100% {
@@ -106,6 +134,21 @@
     -webkit-transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(79px, 0);
     transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(79px, 0); } }
 
+
+/*@-moz-keyframes e {
+  0%, 83.33%, 100% {
+    -webkit-transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(79px, 0);
+    transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(79px, 0); }
+  16.66% {
+    -webkit-transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(158px, 0);
+    transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(158px, 0); }
+  33.33%, 50% {
+    -webkit-transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(158px, 0);
+    transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(158px, 0); }
+  66.66% {
+    -webkit-transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(79px, 0);
+    transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(79px, 0); } }*/
+
 @keyframes e {
   0%, 83.33%, 100% {
     -webkit-transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(79px, 0);
@@ -137,6 +180,21 @@
   66.66% {
     -webkit-transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(-79px, 0);
     transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(-79px, 0); } }
+
+/*@-moz-keyframes w {
+  0%, 83.33%, 100% {
+    -webkit-transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(-79px, 0);
+    transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(-79px, 0); }
+  16.66% {
+    -webkit-transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(-158px, 0);
+    transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(-158px, 0); }
+  33.33%, 50% {
+    -webkit-transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(-158px, 0);
+    transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(-158px, 0); }
+  66.66% {
+    -webkit-transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(-79px, 0);
+    transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(-79px, 0); } }*/
+
 
 @keyframes w {
   0%, 83.33%, 100% {
@@ -170,6 +228,21 @@
     -webkit-transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(237px, -158px);
     transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(237px, -158px); } }
 
+/*@-moz-keyframes ne {
+  0%, 83.33%, 100% {
+    -webkit-transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(158px, -79px);
+    transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(158px, -79px); }
+  16.66% {
+    -webkit-transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(237px, -79px);
+    transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(237px, -79px); }
+  33.33%, 50% {
+    -webkit-transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(316px, -158px);
+    transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(316px, -158px); }
+  66.66% {
+    -webkit-transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(237px, -158px);
+    transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(237px, -158px); } }*/
+
+
 @keyframes ne {
   0%, 83.33%, 100% {
     -webkit-transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(158px, -79px);
@@ -201,6 +274,21 @@
   66.66% {
     -webkit-transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(-79px, 158px);
     transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(-79px, 158px); } }
+
+/*@-moz-keyframes se {
+  0%, 83.33%, 100% {
+    -webkit-transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(0, 79px);
+    transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(0, 79px); }
+  16.66% {
+    -webkit-transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(79px, 79px);
+    transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(79px, 79px); }
+  33.33%, 50% {
+    -webkit-transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(0px, 158px);
+    transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(0px, 158px); }
+  66.66% {
+    -webkit-transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(-79px, 158px);
+    transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(-79px, 158px); } }*/
+
 
 @keyframes se {
   0%, 83.33%, 100% {
@@ -234,6 +322,21 @@
     -webkit-transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(-237px, 158px);
     transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(-237px, 158px); } }
 
+/*@-moz-keyframes sw {
+  0%, 83.33%, 100% {
+    -webkit-transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(-158px, 79px);
+    transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(-158px, 79px); }
+  16.66% {
+    -webkit-transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(-237px, 79px);
+    transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(-237px, 79px); }
+  33.33%, 50% {
+    -webkit-transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(-316px, 158px);
+    transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(-316px, 158px); }
+  66.66% {
+    -webkit-transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(-237px, 158px);
+    transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(-237px, 158px); } }*/
+
+
 @keyframes sw {
   0%, 83.33%, 100% {
     -webkit-transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(-158px, 79px);
@@ -265,6 +368,21 @@
   66.66% {
     -webkit-transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(79px, -158px);
     transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(79px, -158px); } }
+
+/*@-moz-keyframes nw {
+  0%, 83.33%, 100% {
+    -webkit-transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(0px, -79px);
+    transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(0px, -79px); }
+  16.66% {
+    -webkit-transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(-79px, -79px);
+    transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(-79px, -79px); }
+  33.33%, 50% {
+    -webkit-transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(0px, -158px);
+    transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(0px, -158px); }
+  66.66% {
+    -webkit-transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(79px, -158px);
+    transform: matrix(0.9, 0.5, 0, 1, 0, 0) translate(79px, -158px); } }*/
+
 
 @keyframes nw {
   0%, 83.33%, 100% {
@@ -318,6 +436,7 @@ blue #0000fe
   /*background: #177abb;*/
   /*background: #fe0000;*/
   background: #fe1919;
+  /*background:#ff3333;*/
   -webkit-transform: matrix(0.9, 0.5, 0, 1, 0, 0);
   -ms-transform: matrix(0.9, 0.5, 0, 1, 0, 0);
       transform: matrix(0.9, 0.5, 0, 1, 0, 0);
@@ -335,7 +454,8 @@ blue #0000fe
   /*background: #81fbd2;*/
   /*background: #7ed7f7;*/
   /*background: #ff7f00;*/
-  background: #fbae17;
+    background: #fbae17;
+    /*background:#75a5a5;*/
   -webkit-transform: matrix(1, -1, 1, 0, 40, -80);
   -ms-transform: matrix(1, -1, 1, 0, 40, -80);
       transform: matrix(1, -1, 1, 0, 40, -80);
@@ -360,6 +480,14 @@ blue #0000fe
     -webkit-transform: translate(0, -158px);
     transform: translate(0, -158px); } }
 
+@-moz-keyframes top {
+  0%, 33.33%, 100% {
+    -webkit-transform: translate(0, -79px);
+    transform: translate(0, -79px); }
+  50%, 83.33% {
+    -webkit-transform: translate(0, -158px);
+    transform: translate(0, -158px); } }
+
 @keyframes top {
   0%, 33.33%, 100% {
     -webkit-transform: translate(0, -79px);
@@ -376,7 +504,7 @@ blue #0000fe
     -webkit-transform: translate(0, 158px);
     transform: translate(0, 158px); } }
 
-@keyframes bottom {
+@-moz-keyframes bottom {
   0%, 33.33%, 100% {
     -webkit-transform: translate(0, 79px);
     transform: translate(0, 79px); }
@@ -384,6 +512,7 @@ blue #0000fe
     -webkit-transform: translate(0, 158px);
     transform: translate(0, 158px); } }
 
+<<<<<<< HEAD
 
     /*new animation hack*/
 
@@ -710,6 +839,15 @@ blue #0000fe
     	}
     }
 
+=======
+@keyframes bottom {
+  0%, 33.33%, 100% {
+    -webkit-transform: translate(0, 79px);
+    transform: translate(0, 79px); }
+  50%, 83.33% {
+    -webkit-transform: translate(0, 158px);
+    transform: translate(0, 158px); } }
+>>>>>>> bc07e9bd57ac0c7027f548cb52647e5381697964
 
 html {
   background-color: #262626; }
