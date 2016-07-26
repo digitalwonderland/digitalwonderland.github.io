@@ -385,6 +385,330 @@ blue #0000fe
     transform: translate(0, 158px); } }
 
 
+    /*new animation hack*/
+
+    body, html {
+    	background: #fff;
+    	margin: 0;
+    	padding: 0;
+    	margin: auto;
+    }
+
+    #cube {
+    	position: absolute;
+    	left: 50%;
+    	top: 50%;
+    	margin-left: -100px;
+    	margin-top: -50px;
+    	height: 100;
+
+    }
+
+    #credit {
+    	position: absolute;
+    	bottom: 20px;
+    	left: 20px;
+    	color: #fff;
+    	font-family: Helvetica, Arial, sans-serif;
+    	font-weight: bold;
+    	text-transform: uppercase;
+    	letter-spacing: 1px;
+    }
+
+    #social {
+    	position: absolute;
+    	top: 20;
+    	left: 20;
+    }
+
+    .fb-share-button {
+    	position: absolute;
+    	bottom: -120;
+    	right: -120;
+    }
+
+    #credit a {
+    	color: #00939c;
+    }
+
+    .block {
+    	position: absolute;
+    	-webkit-transition: margin 7s;
+    	transition: margin 7s;
+      opacity: 0.925;
+    }
+
+    .block .top {
+    	height: 58px;
+    	width: 50px;
+    }
+
+    .block .left, .block .right {
+    	height: 55px;
+    	width: 50px;
+    }
+
+    .block .top {
+    	background: #fbae17;
+    	-ms-transform: rotate(-60deg) skewX(30deg); /* IE 9 */
+    	-webkit-transform: rotate(-60deg) skewY(30deg);
+    	transform:  rotate(-60deg) skewY(30deg);
+    	position: absolute;
+      	bottom: 40px;
+      	left: 25px;
+    	opacity: 0.925;
+    }
+
+    .block .left {
+    	background: #fe1919;
+    	-ms-transform: skewY(30deg); /* IE 9 */
+    	-webkit-transform: skewY(30deg);
+    	transform: skewY(30deg);
+    	opacity: 0.925;
+    }
+
+    .block .right {
+    	background: #00b8b8;
+    	-ms-transform: skewY(-30deg); /* IE 9 */
+    	-webkit-transform: skewY(-30deg);
+    	transform: skewY(-30deg);
+    	position: absolute;
+    	bottom:0px;
+    	left:50px;
+    	opacity: 0.925;
+    }
+
+    .toplayer {
+    	position: absolute;
+      	top: -52px;
+      	z-index: 1000;
+    }
+
+    .middlelayer {
+    	position: absolute;
+    	top: 3px;
+    	z-index: 999;
+    }
+
+    .bottomlayer {
+    	position: absolute;
+      top: 58px;
+      z-index: 998;
+    }
+
+    div[class^="row"], div[class^="col"] {
+    	position: absolute;
+    	-webkit-transition: margin 7s;
+    	transition: margin 7s;
+    }
+
+    div[class^="singlerow"] {
+    	position:relative;
+    	-webkit-transition: left 7s;
+    	transition: left 7s;
+    }
+
+    div[class^="block"] {
+    	opacity: 0.925;
+    }
+
+    .row1-2, .row2-2, .row3-2 {
+    	left:50px;
+    	top:29px;
+    }
+
+    .row1-3, .row2-3, .row3-3 {
+    	left:100px;
+    	top: 58px;
+    }
+
+    .block111, .block121, .block131, .block211, .block221, .block231, .block311, .block321, .block331 {
+    	position:absolute;
+    	left:-50px;
+    	top:29px;
+    	z-index: 2;
+    }
+
+    .block112, .block122, .block132, .block212, .block222, .block232, .block312, .block322, .block332 {
+    	z-index: 1;
+    }
+
+    .block113, .block123, .block133, .block213, .block223, .block233, .block313, .block323, .block333 {
+    	position:absolute;
+    	left:50px;
+    	top:-29px;
+    	z-index: 0;
+    }
+
+    /* Animation */
+
+    #cube .row3-1, #cube .row2-1, #cube .row1-1 {
+    	-webkit-animation: backrow 5s infinite;
+    }
+
+    @-webkit-keyframes backrow {
+    	0% {
+    		margin: 0;
+    	}
+    	16% {
+    		margin: -26px 0 0 -50px;
+    	}
+    	33% {
+    		margin: -26px 0 0 -50px;
+    	}
+    	50%	{
+    		margin: -26px 0 0 -50px;
+    	}
+    	66% {
+    		margin: 0;
+    	}
+    	83% {
+    		margin: 0;
+    	}
+    	100% {
+    		margin: 0;
+    	}
+    }
+
+    #cube .row3-3, #cube .row2-3, #cube .row1-3 {
+    	-webkit-animation: frontrow 5s infinite;
+    }
+
+    @-webkit-keyframes frontrow {
+    	0% {
+    		margin: 0;
+    	}
+    	16% {
+    		margin: 26px 0 0 50px;
+    	}
+    	33% {
+    		margin: 26px 0 0 50px;
+    	}
+    	50%	{
+    		margin: 26px 0 0 50px;
+    	}
+    	66% {
+    		margin: 0;
+    	}
+    	83% {
+    		margin: 0;
+    	}
+    	100% {
+    		margin: 0;
+    	}
+    }
+
+    #cube .col1 {
+    	-webkit-animation: leftcolumns 5s infinite;
+    }
+
+    @-webkit-keyframes leftcolumns {
+    	0% {
+    		margin: 0;
+    	}
+    	16% {
+    		margin: 0;
+    	}
+    	33% {
+    		margin: 28px 0px 0px -50px;
+    	}
+    	50%	{
+    		margin: 28px 0px 0px -50px;
+    	}
+    	66% {
+    		margin: 28px 0px 0px -50px;
+    	}
+    	83% {
+    		margin: 0;
+    	}
+    	100% {
+    		margin: 0;
+    	}
+    }
+
+    #cube .col3 {
+    	-webkit-animation: rightcolumns 5s infinite;
+    }
+
+    @-webkit-keyframes rightcolumns {
+    	0% {
+    		margin: 0;
+    	}
+    	16% {
+    		margin: 0;
+    	}
+    	33% {
+    		margin: -28px 0px 0px 50px;
+    	}
+    	50%	{
+    		margin: -28px 0px 0px 50px;
+    	}
+    	66% {
+    		margin: -28px 0px 0px 50px;
+    	}
+    	83% {
+    		margin: 0;
+    	}
+    	100% {
+    		margin: 0;
+    	}
+    }
+
+    #cube .block111, #cube .block121, #cube .block131, #cube .block112, #cube .block122, #cube .block132, #cube .block113, #cube .block123, #cube .block133 {
+    	-webkit-animation: explodetop 5s infinite;
+    }
+
+    @-webkit-keyframes explodetop {
+    	0% {
+    		margin: 0;
+    	}
+    	16% {
+    		margin: 0;
+    	}
+    	33% {
+    		margin: 0;
+    	}
+    	50%	{
+    		margin-top: -57px;
+    	}
+    	66% {
+    		margin-top: -57px;
+    	}
+    	83% {
+    		margin-top: -57px;
+    	}
+    	100% {
+    		margin-top: 0;
+    	}
+    }
+
+    #cube .block311, #cube .block321, #cube .block331, #cube .block312, #cube .block322, #cube .block332, #cube .block313, #cube .block323, #cube .block333 {
+    	-webkit-animation: explodebottom 5s infinite;
+    }
+
+    @-webkit-keyframes explodebottom {
+    	0% {
+    		margin: 0;
+    	}
+    	16% {
+    		margin: 0;
+    	}
+    	33% {
+    		margin: 0;
+    	}
+    	50%	{
+    		margin-top: 57px;
+    	}
+    	66% {
+    		margin-top: 57px;
+    	}
+    	83% {
+    		margin-top: 57px;
+    	}
+    	100% {
+    		margin-top: 0;
+    	}
+    }
 
 
 html {
@@ -4969,4 +5293,14 @@ body, html{
   margin:0;
   padding:0;
   max-width:100vw;
+}
+
+
+
+.overlay{
+  z-index: 10000;
+}
+
+div.button, a.btn-close{
+  z-index: 20000!important;
 }
