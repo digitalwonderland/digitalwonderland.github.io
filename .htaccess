@@ -1,3 +1,8 @@
+# Add Caching.
+<FilesMatch ".(ico|jpg|jpeg|png|gif|js|css|swf)$">
+    Header set Cache-Control "max-age=31104000"
+</FilesMatch>
+
 Options -Indexes -Multiviews
 <IfModule mod_headers.c>
     # properly handle requests coming from behind proxies
