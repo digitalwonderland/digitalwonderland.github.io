@@ -6,7 +6,7 @@
 
 
 <!--
-===================== version="0.0.49" =====================
+===================== version="0.0.50" =====================
 -->
 
 <html lang="en" class="no-js"> <!--<![endif]-->
@@ -206,40 +206,55 @@
                         </div>
                     </div>
 
-                    <div class="row contact-row requirements-planner-container bottom-marge-require">
+                    <div class="requirements-planner-outer-container">
+                        <div class="requirements-planner-inner-container">
+
+                            <div class="row contact-row requirements-planner-container bottom-marge-require">
 
 
-                        <div class="col-md-4 checkbox-require-box">
+                                <div class="col-md-4 checkbox-require-box">
 
-                            <input type="checkbox" name="require-design" id="cbox1" value="Design"><label for="cbox1"> Design</label>
+                                    <input type="checkbox" name="require-design" id="cbox1" value="Design"><label for="cbox1"> </label>
+                                    <br><br><br><h5>Design</h5>
+                                </div>
+                                <div class="col-md-4 checkbox-require-box">
+
+                                    <input type="checkbox" name="require-development" id="cbox2" value="Development">
+                                    <label
+                                        for="cbox2"> </label>
+                                        <br><br><br><h5>Development</h5>
+
+                                </div>
+                                <div class="col-md-4 checkbox-require-box">
+                                    <input type="checkbox" name="require-ux" id="cbox3" value="Development"><label for="cbox3"> </label>
+                                    <br><br><br><h5>UX</h5>
+
+                                </div>
+
+                            </div>
+                            <div class="row contact-row requirements-planner-container bottom-marge-require">
+
+                                <div class="col-md-4 checkbox-require-box">
+
+                                    <input type="checkbox" name="require-cms" id="cbox4" value="CMS"><label for="cbox4"></label>
+                                    <br><br><br><h5>UX</h5>
+                                </div>
+                                <div class="col-md-4 checkbox-require-box">
+
+                                    <input type="checkbox" name="require-ecommerce" id="cbox5" value="e-commerce">
+                                    <label
+                                        for="cbox5"> </label>
+                                        <br><br><br><h5>E-Commerce</h5>
+
+                                </div>
+                                <div class="col-md-4 checkbox-require-box">
+
+                                    <input type="checkbox" name="require-notsure" id="cbox6" value="Not_Sure"><label for="cbox6"></label>
+                                    <br><br><br><h5>Not Sure</h5>
+                                </div>
+
+                            </div>
                         </div>
-                        <div class="col-md-4 checkbox-require-box">
-
-                            <input type="checkbox" name="require-development" id="cbox2" value="Development"><label for="cbox2"> Development</label>
-
-                        </div>
-                        <div class="col-md-4 checkbox-require-box">
-                            				<input type="checkbox" name="require-ux" id="cbox3" value="Development"><label for="cbox3"> UX</label>
-
-                        </div>
-
-                    </div>
-                    <div class="row contact-row requirements-planner-container bottom-marge-require">
-
-                        <div class="col-md-4 checkbox-require-box">
-
-                            <input type="checkbox" name="require-cms" id="cbox4" value="CMS"><label for="cbox4"> CMS</label>
-                        </div>
-                        <div class="col-md-4 checkbox-require-box">
-
-                            <input type="checkbox" name="require-ecommerce" id="cbox5" value="e-commerce"><label for="cbox5"> E-Commerce</label>
-
-                        </div>
-                        <div class="col-md-4 checkbox-require-box">
-
-                            <input type="checkbox" name="require-notsure" id="cbox6" value="Not_Sure"><label for="cbox6"> Not Sure</label>
-                        </div>
-
                     </div>
 
 
@@ -275,42 +290,42 @@
                             </label>
                             </div>
                             <div class="col-sm-12 col-md-3">
-                            <label class="btn btn-lg btn-primary">
+                                <label class="btn btn-lg btn-primary">
                                 <input type="radio" name="budget-5-10k" id="option2" autocomplete="off">5K - 10K
                             </label>
                             </div>
                             <div class="col-sm-12 col-md-3">
-                            <label class="btn btn-lg btn-primary">
+                                <label class="btn btn-lg btn-primary">
                                 <input type="radio" name="budget-10k-25k" id="option3" autocomplete="off">10K - 25K
                             </label>
                             </div>
                             <div class="col-sm-12 col-md-3">
-                            <label class="btn btn-lg btn-primary">
+                                <label class="btn btn-lg btn-primary">
                                 <input type="radio" name="budget-25-50k" id="option3" autocomplete="off">25K+
                             </label>
                             </div>
-                            
-                        </div>
+
                         </div>
                     </div>
-
-
-                    <div class="project-submit-container form-actions">
-                        <input type="submit" class="btn btn-lg btn-color btn-submit" value="Submit Proposal" id="submit-message">
-                        <input type="hidden" name="_next" value="//digitalwonderlandagency.com/thanks.html" />
-                    </div>
-                </form>
-
             </div>
+
+
+            <div class="project-submit-container form-actions">
+                <input type="submit" class="btn btn-lg btn-color btn-submit" value="Submit Proposal" id="submit-message">
+                <input type="hidden" name="_next" value="//digitalwonderlandagency.com/thanks.html" />
+            </div>
+            </form>
+
         </div>
-        <!-- end col -->
+    </div>
+    <!-- end col -->
 
     </div>
 
 
 </section>
 
-    <script>
+<script>
     var contactform =  document.getElementById('contactform');
     contactform.setAttribute('action', '//formspree.io/' + 'hello' + '@' + 'digitalwonderlandagency' + '.' + 'co.uk');
 </script>
@@ -359,18 +374,17 @@
 	<!-- Scripts
 	================================================== -->
 	
-<script src="js/main.js"></script>
-<script src="js/vendor/libs.js"></script>
-<script src="js/app-min.js"></script>
+<script src="js/main.js"async></script>
+<script src="js/vendor/libs.js"async></script>
 
 
 <!-- jQuery Scripts -->
-<script type="text/javascript" src="js/jquery.min.js"></script>
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
-<script type="text/javascript" src="http://maps.google.com/maps/api/js"></script>
-<script type="text/javascript" src="js/gmap3.js"></script>
-<script type="text/javascript" src="js/plugins.js"></script>
-<script type="text/javascript" src="js/scripts.js"></script>
+<script type="text/javascript" src="js/jquery.min.js"async></script>
+<script type="text/javascript" src="js/bootstrap.min.js"async></script>
+<script type="text/javascript" src="http://maps.google.com/maps/api/js"async></script>
+<script type="text/javascript" src="js/gmap3.js"async></script>
+<script type="text/javascript" src="js/plugins.js"async></script>
+<script type="text/javascript" src="js/scripts.js"async></script>
 
 
 

@@ -35,3 +35,9 @@ function change() {
     i = (i + 1) % color.length;
 }
 setInterval(change, 1000);
+
+
+$('#toggle').click(function() {
+    $(this).toggleClass('active');
+    $('#overlay').toggleClass('open');
+});
