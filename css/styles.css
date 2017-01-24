@@ -19042,17 +19042,17 @@ input.searchbox:focus {
   background-color: #f54320; }
 
 .pricing-price {
+  padding-top: 15px;
   font-size: 25px;
   color: #111;
   background-color: #fff;
   width: 110px;
-  height: 110px;
+  height: 80px;
   display: inline-block;
   position: absolute;
   left: 50%;
   margin-left: -55px;
-  line-height: 1.3;
-  padding: 28px 25px; }
+  line-height: 1.3; }
 
 .pricing-currency {
   font-family: "Montserrat", sans-serif; }
@@ -24824,17 +24824,17 @@ input.searchbox:focus {
   background-color: #f54320; }
 
 .pricing-price {
+  padding-top: 15px;
   font-size: 25px;
   color: #111;
   background-color: #fff;
   width: 110px;
-  height: 110px;
+  height: 80px;
   display: inline-block;
   position: absolute;
   left: 50%;
   margin-left: -55px;
-  line-height: 1.3;
-  padding: 28px 25px; }
+  line-height: 1.3; }
 
 .pricing-currency {
   font-family: "Montserrat", sans-serif; }
