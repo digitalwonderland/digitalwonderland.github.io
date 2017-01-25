@@ -4,7 +4,6 @@ Main File For Imports
 =================================================== */
 @import url("https://fonts.googleapis.com/css?family=Oswald");
 @import url("https://fonts.googleapis.com/css?family=Oxygen");
-@import "http://webfonts.ru/import/notcourier.css";
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
 @import url("https://fonts.googleapis.com/css?family=Oswald");
 @import url("https://fonts.googleapis.com/css?family=Oxygen");
@@ -19042,17 +19041,34 @@ input.searchbox:focus {
   background-color: #f54320; }
 
 .pricing-price {
+  padding-top: 20px;
+  font-size: 25px;
+  color: #111;
+  background-color: #fff;
+  width: 110px;
+  height: 75px;
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  margin-left: -55px;
+  line-height: 1.3;
+  display: table-cell;
+  vertical-align: middle; }
+
+.pricing-price-CMS {
   padding-top: 15px;
   font-size: 25px;
   color: #111;
   background-color: #fff;
   width: 110px;
-  height: 80px;
+  height: 75px;
   display: inline-block;
   position: absolute;
   left: 50%;
   margin-left: -55px;
-  line-height: 1.3; }
+  line-height: 1.3;
+  display: table-cell;
+  vertical-align: middle; }
 
 .pricing-currency {
   font-family: "Montserrat", sans-serif; }
@@ -19062,7 +19078,7 @@ input.searchbox:focus {
   display: block; }
 
 .pricing-features {
-  padding: 100px 40px 40px;
+  padding: 75px 40px 40px;
   color: #7a7a7a; }
   .pricing-features li {
     padding: 10px 0; }
@@ -19357,156 +19373,6 @@ ol.numbers {
 
 .mid-box i {
   margin-left: 2px !important; }
-
-section.navigation-2 { }
-  section.navigation-2 .lower {
-    width: 100px;
-    /*   margin:10% auto; */
-    padding: 50px;
-    background: white;
-    opacity: 0.8;
-    color: black;
-    box-shadow: inset 0 0 0 1px black;
-    border: 30px solid white;
-    float: right; }
-  section.navigation-2 .lower:hover {
-    background: black;
-    color: white;
-    box-shadow: inset 0 0 0 1px white;
-    border: 30px solid black; }
-  section.navigation-2 input {
-    display: none; }
-  section.navigation-2 .lower label {
-    font-family: 'NotCourierSans';
-    text-transform: uppercase;
-    font-size: 3rem;
-    text-align: center; }
-  section.navigation-2 .lower label:hover {
-    cursor: pointer; }
-  section.navigation-2 .overlay {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background: rgba(0, 0, 0, 0.9); }
-  section.navigation-2 .overlay label {
-    width: 58px;
-    height: 58px;
-    position: absolute;
-    right: 20px;
-    top: 20px;
-    background: url("http://tympanus.net/Development/FullscreenOverlayStyles/img/cross.png");
-    z-index: 100;
-    cursor: pointer; }
-  section.navigation-2 .overlay nav {
-    text-align: center;
-    position: relative;
-    top: 50%;
-    height: 60%;
-    font-size: 3rem;
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%); }
-  section.navigation-2 .overlay ul {
-    list-style: none;
-    padding: 0;
-    margin: 0 auto;
-    display: inline-block;
-    height: 100%;
-    position: relative; }
-  section.navigation-2 .overlay ul li {
-    display: block;
-    height: 20%;
-    height: calc(100% / 5);
-    min-height: 54px; }
-  section.navigation-2 .overlay ul li a {
-    font-weight: 300;
-    display: block;
-    color: white;
-    text-decoration: none;
-    -webkit-transition: color 0.2s;
-    transition: color 0.2s;
-    font-family: 'NotCourierSans';
-    text-transform: uppercase; }
-  section.navigation-2 .overlay ul li a:hover,
-  section.navigation-2 .overlay ul li a:focus {
-    color: #849368; }
-  section.navigation-2 .lower ~ .overlay-hugeinc {
-    opacity: 0;
-    visibility: hidden;
-    -webkit-transition: opacity 0.5s, visibility 0s 0.5s;
-    transition: opacity 0.5s, visibility 0s 0.5s; }
-  section.navigation-2 #op:checked ~ .overlay-hugeinc {
-    opacity: 1;
-    visibility: visible;
-    -webkit-transition: opacity 0.5s;
-    transition: opacity 0.5s; }
-  section.navigation-2 .overlay-hugeinc nav {
-    -moz-perspective: 300px; }
-  section.navigation-2 .overlay-hugeinc nav ul {
-    opacity: 0.4;
-    -webkit-transform: translateY(-25%) rotateX(35deg);
-    transform: translateY(-25%) rotateX(35deg);
-    -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
-    transition: transform 0.5s, opacity 0.5s; }
-  section.navigation-2 #op:checked ~ .overlay-hugeinc nav ul {
-    opacity: 1;
-    -webkit-transform: rotateX(0deg);
-    transform: rotateX(0deg); }
-  section.navigation-2 #op:not(:checked) ~ .overlay-hugeinc nav ul {
-    -webkit-transform: translateY(25%) rotateX(-35deg);
-    transform: translateY(25%) rotateX(-35deg); }
-
-section.navigation-3 .modalDialog {
-  position: fixed;
-  font-family: Arial, Helvetica, sans-serif;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background: rgba(0, 0, 0, 0.8);
-  z-index: 99999;
-  opacity: 0;
-  -webkit-transition: opacity 400ms ease-in;
-  -moz-transition: opacity 400ms ease-in;
-  transition: opacity 400ms ease-in;
-  pointer-events: none; }
-
-section.navigation-3 .modalDialog:target {
-  opacity: 1;
-  pointer-events: auto; }
-
-section.navigation-3 .modalDialog > div {
-  width: 400px;
-  position: relative;
-  margin: 10% auto;
-  padding: 5px 20px 13px 20px;
-  border-radius: 10px;
-  background: #fff;
-  background: -moz-linear-gradient(#fff, #999);
-  background: -webkit-linear-gradient(#fff, #999);
-  background: -o-linear-gradient(#fff, #999); }
-
-section.navigation-3 .close {
-  background: #606061;
-  color: #FFFFFF;
-  line-height: 25px;
-  position: absolute;
-  right: -12px;
-  text-align: center;
-  top: -10px;
-  width: 24px;
-  text-decoration: none;
-  font-weight: bold;
-  -webkit-border-radius: 12px;
-  -moz-border-radius: 12px;
-  border-radius: 12px;
-  -moz-box-shadow: 1px 1px 3px #000;
-  -webkit-box-shadow: 1px 1px 3px #000;
-  box-shadow: 1px 1px 3px #000; }
-
-section.navigation-3 .close:hover {
-  background: #00d9ff; }
 
 @media (max-width: 991px) {
   .navbar-header {
@@ -24824,17 +24690,34 @@ input.searchbox:focus {
   background-color: #f54320; }
 
 .pricing-price {
+  padding-top: 20px;
+  font-size: 25px;
+  color: #111;
+  background-color: #fff;
+  width: 110px;
+  height: 75px;
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  margin-left: -55px;
+  line-height: 1.3;
+  display: table-cell;
+  vertical-align: middle; }
+
+.pricing-price-CMS {
   padding-top: 15px;
   font-size: 25px;
   color: #111;
   background-color: #fff;
   width: 110px;
-  height: 80px;
+  height: 75px;
   display: inline-block;
   position: absolute;
   left: 50%;
   margin-left: -55px;
-  line-height: 1.3; }
+  line-height: 1.3;
+  display: table-cell;
+  vertical-align: middle; }
 
 .pricing-currency {
   font-family: "Montserrat", sans-serif; }
@@ -24844,7 +24727,7 @@ input.searchbox:focus {
   display: block; }
 
 .pricing-features {
-  padding: 100px 40px 40px;
+  padding: 75px 40px 40px;
   color: #333; }
   .pricing-features li {
     padding: 10px 0; }
