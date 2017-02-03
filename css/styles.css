@@ -14914,7 +14914,7 @@ button.close {
   font-size: 4rem; }
 
 .contact-bg-red {
-  height: 59vh;
+  height: 60vh;
   background-color: #f54320; }
   .contact-bg-red * {
     color: #fff !important; }
@@ -19742,7 +19742,6 @@ h6 {
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215; }
 
 .hero-wrap {
-  background-image: url("../img/geometrics.jpeg");
   /**fall back image*/
   background-size: cover;
   background-repeat: no-repeat;
@@ -19945,13 +19944,17 @@ h3#p-white {
   padding-top: 40px; }
 
 .local-scroll-red {
-  padding-top: 80px; }
+  padding-top: 150px;
+  float: right; }
   .local-scroll-red * #fa-scroll-sizer {
     font-size: 3rem !important;
     color: #f54320 !important; }
 
 #ipad-promo {
   background-image: url(../img/ipad_promo.png); }
+
+.title-wrappers-index {
+  padding-top: 10%; }
 
 /* The Modal (background) */
 .modal {
@@ -21125,13 +21128,21 @@ input.searchbox:focus {
   display: table-cell;
   vertical-align: middle;
   height: 100%;
-  width: 100%;
-  text-align: center; }
+  width: 50%;
+  text-align: left; }
   .hero-message h1 {
     color: #f54320;
     font-size: 56px;
     font-weight: 700;
     line-height: 1; }
+
+@media only screen and (max-width: 768px) {
+  .hero-message {
+    width: 100% !important;
+    text-align: center !important; }
+  .local-scroll-red {
+    padding-top: 10px !important;
+    float: center !important; } }
 
 .hero-subtitle {
   text-transform: none;
@@ -21140,7 +21151,8 @@ input.searchbox:focus {
   line-height: 1.5;
   font-size: 20px;
   max-width: 800px;
-  margin: 24px auto 0; }
+  margin: 24px auto 0;
+  text-align: left; }
 
 .buttons-holder > a {
   margin: 5px; }
@@ -21154,8 +21166,19 @@ input.searchbox:focus {
 
 @media only screen and (max-width: 768px) {
   .hero-message.text-rotator h1 {
-    padding-top: 200px;
-    font-size: 2.8rem; } }
+    padding-top: 100px;
+    font-size: 2.8rem; }
+  .hero-message {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    width: 100% !important;
+    text-align: center !important; }
+  .kingatron-nav .menu {
+    font-size: 2rem !important;
+    text-align: left !important;
+    padding-left: 50px !important;
+    align-items: left !important; } }
 
 /*-------------------------------------------------------*/
 /* Home Video Bg
@@ -22466,8 +22489,9 @@ ol.numbers {
   padding: 0;
   min-height: 50vh;
   max-height: 80vh;
-  width: 100%;
-  margin-bottom: 150px; }
+  width: 50%;
+  margin-bottom: 150px;
+  padding-top: 30% !important; }
   .oj-cubes #view {
     margin: 0;
     padding: 0;
@@ -22847,7 +22871,12 @@ ol.numbers {
 .section-wrap-oj {
   margin-top: -50px !important;
   margin-bottom: 170px !important;
-  z-index: 10000 !important; }
+  z-index: 10000 !important;
+  margin-left: 30% !important; }
+
+.cube-main-land {
+  float: right;
+  top: 25%; }
 
 .our-team {
   margin-top: 30px;
@@ -23067,6 +23096,9 @@ section.main-process-section {
   background-color: transparent;
   text-align: center; }
 
+.submit-btn-steez {
+  width: 100% !important; }
+
 form.contact-form * h2 {
   padding: 50px 0;
   text-align: center; }
@@ -23105,6 +23137,11 @@ form.contact-form * h2 {
   font-family: 'Oxygen', sans-serif;
   font-weight: bold;
   color: #333; }
+
+.pp-info-text {
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 30px; }
 
 .service-text-bg-blk {
   color: #333; }
@@ -23165,7 +23202,7 @@ form.contact-form * h2 {
     .side-main-steez-left-about-intro h4 {
       padding-top: 15%;
       color: #f54320 !important;
-      padding-left: 15%; }
+      padding-left: -15%; }
   .service-title-steerer {
     margin-left: 6%;
     float: left;
@@ -24382,6 +24419,83 @@ button.btn-steeze:hover {
 .cont-bg-picx {
   background-size: contain;
   background-attachment: fixed; }
+
+.kingatron-nav {
+  max-height: 100px;
+  width: 100% !important;
+  position: fixed;
+  background: #fff !important;
+  z-index: 1000000; }
+  .kingatron-nav #nav-toggle {
+    position: absolute;
+    clip: rect(0, 0, 0, 0); }
+    .kingatron-nav #nav-toggle:checked + .menu {
+      visibility: visible;
+      opacity: 1; }
+  .kingatron-nav #nav-toggle-label {
+    padding-top: 10px;
+    padding-right: 5px;
+    position: fixed;
+    right: 1em;
+    top: 1em;
+    z-index: 2;
+    cursor: pointer; }
+    .kingatron-nav #nav-toggle-label span, .kingatron-nav #nav-toggle-label:before, .kingatron-nav #nav-toggle-label:after {
+      display: block;
+      height: 3px;
+      background: #111;
+      width: 2em;
+      margin-bottom: .4em;
+      transition: .2s all linear; }
+    .kingatron-nav #nav-toggle-label:before, .kingatron-nav #nav-toggle-label:after {
+      content: ""; }
+  .kingatron-nav .menu {
+    font-size: 3.5rem;
+    visibility: hidden;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 0;
+    padding: 2em;
+    position: fixed;
+    list-style: none;
+    padding-left: 0;
+    text-align: left;
+    background: #f54320;
+    transition: .2s all linear;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    margin: 0 auto; }
+    .kingatron-nav .menu li {
+      text-transform: uppercase;
+      font-weight: bold;
+      margin-bottom: 1.5em; }
+      .kingatron-nav .menu li a {
+        text-decoration: none;
+        color: #fff; }
+  .kingatron-nav .nav-toggle-label--active span {
+    opacity: 0; }
+  .kingatron-nav .nav-toggle-label--active:before {
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 50%; }
+  .kingatron-nav .nav-toggle-label--active:after {
+    transform: rotate(45deg);
+    position: absolute;
+    top: 50%; }
+
+.kingatron-nav .menu {
+  text-align: center; }
+  .kingatron-nav .menu li {
+    width: 100vw;
+    margin-bottom: 20px; }
+    .kingatron-nav .menu li:hover {
+      background: #fff; }
+      .kingatron-nav .menu li:hover a {
+        color: #444; }
 
 @media (max-width: 1200px) {
   .navbar-nav > li > a {
@@ -26774,13 +26888,21 @@ input.searchbox:focus {
   display: table-cell;
   vertical-align: middle;
   height: 100%;
-  width: 100%;
-  text-align: center; }
+  width: 50%;
+  text-align: left; }
   .hero-message h1 {
     color: #f54320;
     font-size: 56px;
     font-weight: 700;
     line-height: 1; }
+
+@media only screen and (max-width: 768px) {
+  .hero-message {
+    width: 100% !important;
+    text-align: center !important; }
+  .local-scroll-red {
+    padding-top: 10px !important;
+    float: center !important; } }
 
 .hero-subtitle {
   text-transform: none;
@@ -26789,7 +26911,8 @@ input.searchbox:focus {
   line-height: 1.5;
   font-size: 20px;
   max-width: 800px;
-  margin: 24px auto 0; }
+  margin: 24px auto 0;
+  text-align: left; }
 
 .buttons-holder > a {
   margin: 5px; }
@@ -26803,8 +26926,19 @@ input.searchbox:focus {
 
 @media only screen and (max-width: 768px) {
   .hero-message.text-rotator h1 {
-    padding-top: 200px;
-    font-size: 2.8rem; } }
+    padding-top: 100px;
+    font-size: 2.8rem; }
+  .hero-message {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    width: 100% !important;
+    text-align: center !important; }
+  .kingatron-nav .menu {
+    font-size: 2rem !important;
+    text-align: left !important;
+    padding-left: 50px !important;
+    align-items: left !important; } }
 
 /*-------------------------------------------------------*/
 /* Home Video Bg
@@ -28010,8 +28144,9 @@ h5#footer-copyright {
   padding: 0;
   min-height: 50vh;
   max-height: 80vh;
-  width: 100%;
-  margin-bottom: 150px; }
+  width: 50%;
+  margin-bottom: 150px;
+  padding-top: 30% !important; }
   .oj-cubes #view {
     margin: 0;
     padding: 0;
@@ -28391,10 +28526,14 @@ h5#footer-copyright {
 .section-wrap-oj {
   margin-top: -50px !important;
   margin-bottom: 170px !important;
-  z-index: 10000 !important; }
+  z-index: 10000 !important;
+  margin-left: 30% !important; }
+
+.cube-main-land {
+  float: right;
+  top: 25%; }
 
 .hero-wrap {
-  background-image: url("../img/geometrics.jpeg");
   /**fall back image*/
   background-size: cover;
   background-repeat: no-repeat;
@@ -28599,13 +28738,17 @@ h3#p-white {
   padding-top: 40px; }
 
 .local-scroll-red {
-  padding-top: 80px; }
+  padding-top: 150px;
+  float: right; }
   .local-scroll-red * #fa-scroll-sizer {
     font-size: 3rem !important;
     color: #f54320 !important; }
 
 #ipad-promo {
   background-image: url(../img/ipad_promo.png); }
+
+.title-wrappers-index {
+  padding-top: 10%; }
 
 /* ===================================================
 BASE

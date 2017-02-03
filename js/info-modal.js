@@ -41,3 +41,29 @@ $('#toggle').click(function() {
     $(this).toggleClass('active');
     $('#overlay').toggleClass('open');
 });
+
+//kingatron-modal JSON.stringify
+
+document.addEventListener('DOMContentLoaded', function() {
+    var checkbox = document.querySelector('#nav-toggle');
+    var checkboxLabel = document.querySelector('#nav-toggle-label');
+
+    function removeActive() {
+        checkboxLabel.classList.remove('nav-toggle-label--active');
+    }
+
+    checkbox.onclick = function() {
+        if (checkbox.checked) {
+            checkboxLabel.classList.add('nav-toggle-label--active');
+        } else {
+            removeActive();
+        }
+    };
+
+    var menu = document.querySelector('.menu');
+    menu.onclick = function() {
+        removeActive();
+        checkbox.checked = false;
+    };
+
+});
