@@ -19748,12 +19748,9 @@ h6 {
   background-attachment: fixed; }
 
 .layer-oj {
-  background-color: rgba(188, 241, 255, 0.7);
+  background-color: #fff;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, rgba(255, 240, 255, 0.8), rgba(255, 255, 255, 0.1));
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, rgba(255, 240, 255, 0.8), rgba(255, 255, 255, 0.1));
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #fff;
   top: 0;
   left: 0;
   width: 100%;
@@ -22522,6 +22519,8 @@ ol.numbers {
     -webkit-backface-visibility: hidden; }
   .oj-cubes .csTop {
     background-color: #fbae17;
+    background: #fbae17;
+    background-color: #fbae17;
     /*     border: 1px solid #ff7700; */
     opacity: 0.9;
     -webkit-transform: rotateX(90deg) translateZ(25px);
@@ -22529,12 +22528,16 @@ ol.numbers {
     transform: rotateX(90deg) translateZ(25px); }
   .oj-cubes .csLeft {
     background-color: #ff7700;
+    background: #ff7700;
+    background-color: #ff7700;
     /*     border: 1px solid #ff7700; */
     opacity: 0.9;
     -webkit-transform: rotateY(-90deg) translateZ(25px);
     /* Safari */
     transform: rotateY(-90deg) translateZ(25px); }
   .oj-cubes .csRight {
+    background-color: #f54320;
+    background: #f54320;
     background-color: #f54320;
     /*     border: 1px solid #ff7700; */
     opacity: 0.9;
@@ -28177,6 +28180,8 @@ h5#footer-copyright {
     -webkit-backface-visibility: hidden; }
   .oj-cubes .csTop {
     background-color: #fbae17;
+    background: #fbae17;
+    background-color: #fbae17;
     /*     border: 1px solid #ff7700; */
     opacity: 0.9;
     -webkit-transform: rotateX(90deg) translateZ(25px);
@@ -28184,12 +28189,16 @@ h5#footer-copyright {
     transform: rotateX(90deg) translateZ(25px); }
   .oj-cubes .csLeft {
     background-color: #ff7700;
+    background: #ff7700;
+    background-color: #ff7700;
     /*     border: 1px solid #ff7700; */
     opacity: 0.9;
     -webkit-transform: rotateY(-90deg) translateZ(25px);
     /* Safari */
     transform: rotateY(-90deg) translateZ(25px); }
   .oj-cubes .csRight {
+    background-color: #f54320;
+    background: #f54320;
     background-color: #f54320;
     /*     border: 1px solid #ff7700; */
     opacity: 0.9;
@@ -28540,12 +28549,9 @@ h5#footer-copyright {
   background-attachment: fixed; }
 
 .layer-oj {
-  background-color: rgba(188, 241, 255, 0.7);
+  background-color: #fff;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, rgba(255, 240, 255, 0.8), rgba(255, 255, 255, 0.1));
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, rgba(255, 240, 255, 0.8), rgba(255, 255, 255, 0.1));
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #fff;
   top: 0;
   left: 0;
   width: 100%;
