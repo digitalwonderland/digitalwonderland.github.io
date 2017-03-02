@@ -4,6 +4,7 @@ Main File For Imports
 =================================================== */
 @import url("https://fonts.googleapis.com/css?family=Oswald");
 @import url("https://fonts.googleapis.com/css?family=Oxygen");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display|Vollkorn");
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
 @import url("https://fonts.googleapis.com/css?family=Oswald");
 @import url("https://fonts.googleapis.com/css?family=Oxygen");
@@ -6010,8 +6011,7 @@ section#about-accordion {
   section#about-accordion .hidden-2nd-title {
     visibility: hidden; }
   section#about-accordion .about-text-intro-steez {
-    padding-top: 20px;
-    margin-bottom: -250px !important; }
+    padding-top: 20px; }
 
 section.about-container-steez {
   height: 150vh;
@@ -6020,6 +6020,10 @@ section.about-container-steez {
 
 .about-digi-info {
   padding-bottom: 100px; }
+
+.ab-steez-para-height {
+  max-height: 400px;
+  padding-bottom: 30px; }
 
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
@@ -14915,7 +14919,8 @@ button.close {
 
 .contact-bg-red {
   height: 60vh;
-  background-color: #f54320; }
+  background-color: #f54320;
+  border: solid 3px #fff; }
   .contact-bg-red * {
     color: #fff !important; }
 
@@ -19742,6 +19747,7 @@ h6 {
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215; }
 
 .hero-wrap {
+  background-image: url("../img/geometrics.jpeg");
   /**fall back image*/
   background-size: cover;
   background-repeat: no-repeat;
@@ -19798,7 +19804,7 @@ section.good-work {
     text-align: center; }
 
 section.good-work-blue {
-  background: #bcf1ff;
+  background: #bcf1fa;
   height: 100%;
   width: 100%;
   padding: 20px 0;
@@ -19953,6 +19959,9 @@ h3#p-white {
 .title-wrappers-index {
   padding-top: 10%; }
 
+span .rotate {
+  font-family: arial, sans-serif !important; }
+
 /* The Modal (background) */
 .modal {
   display: none;
@@ -20014,7 +20023,7 @@ h3#p-white {
 
 .heading-frame {
   padding: 38px 50px;
-  border: 5px solid #f54320;
+  border: 5px solid #fff;
   display: inline-block; }
 
 .intro-text {
@@ -21126,12 +21135,17 @@ input.searchbox:focus {
   vertical-align: middle;
   height: 100%;
   width: 50%;
-  text-align: left; }
+  text-align: left;
+  background-color: #bcf1fa;
+  margin-left: -20px; }
   .hero-message h1 {
     color: #f54320;
     font-size: 56px;
     font-weight: 700;
     line-height: 1; }
+  .hero-message * {
+    color: #f54320;
+    border: #fff; }
 
 @media only screen and (max-width: 768px) {
   .hero-message {
@@ -23356,7 +23370,8 @@ section#services-neo * {
 /* Buttons
 -------------------------------------------------------*/
 .btn-learn {
-  color: #f54320 !important; }
+  color: #f54320 !important;
+  background: #fff !important; }
 
 .btn-learn:hover {
   color: #fff !important; }
@@ -24466,6 +24481,7 @@ button.btn-steeze:hover {
     padding-left: 0;
     text-align: left;
     background: #f54320;
+    opacity: 0.8;
     transition: .2s all linear;
     display: flex;
     flex-direction: column;
@@ -24496,9 +24512,11 @@ button.btn-steeze:hover {
     width: 100vw;
     margin-bottom: 20px; }
     .kingatron-nav .menu li:hover {
-      background: #fff; }
+      background: #f54320;
+      opacity: 0.8; }
       .kingatron-nav .menu li:hover a {
-        color: #444; }
+        color: #ffff00;
+        border-bottom: 3px dotted #ffff00; }
 
 @media (max-width: 1200px) {
   .navbar-nav > li > a {
@@ -25780,7 +25798,7 @@ h6 {
 
 .heading-frame {
   padding: 38px 50px;
-  border: 5px solid #f54320;
+  border: 5px solid #fff;
   display: inline-block; }
 
 .intro-text {
@@ -26892,12 +26910,17 @@ input.searchbox:focus {
   vertical-align: middle;
   height: 100%;
   width: 50%;
-  text-align: left; }
+  text-align: left;
+  background-color: #bcf1fa;
+  margin-left: -20px; }
   .hero-message h1 {
     color: #f54320;
     font-size: 56px;
     font-weight: 700;
     line-height: 1; }
+  .hero-message * {
+    color: #f54320;
+    border: #fff; }
 
 @media only screen and (max-width: 768px) {
   .hero-message {
@@ -27615,7 +27638,8 @@ ol.numbers {
 /* Buttons
 -------------------------------------------------------*/
 .btn-learn {
-  color: #f54320 !important; }
+  color: #f54320 !important;
+  background: #fff !important; }
 
 .btn-learn:hover {
   color: #fff !important; }
@@ -28543,6 +28567,7 @@ h5#footer-copyright {
   top: 25%; }
 
 .hero-wrap {
+  background-image: url("../img/geometrics.jpeg");
   /**fall back image*/
   background-size: cover;
   background-repeat: no-repeat;
@@ -28599,7 +28624,7 @@ section.good-work {
     text-align: center; }
 
 section.good-work-blue {
-  background: #bcf1ff;
+  background: #bcf1fa;
   height: 100%;
   width: 100%;
   padding: 20px 0;
@@ -28755,6 +28780,9 @@ h3#p-white {
 
 .title-wrappers-index {
   padding-top: 10%; }
+
+span .rotate {
+  font-family: arial, sans-serif !important; }
 
 /* ===================================================
 BASE

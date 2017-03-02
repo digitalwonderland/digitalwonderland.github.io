@@ -1,3 +1,5 @@
+"use strict";
+
 import Helpers from './utils/helpers';
 
 import EVENTS from './utils/events';
