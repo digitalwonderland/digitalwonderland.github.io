@@ -1,0 +1,9 @@
+{
+	"version": 3,
+	"file": "universal.css",
+	"sources": [
+		"../../resources/scss/universal.scss"
+	],
+	"mappings": "",
+	"names": []
+}

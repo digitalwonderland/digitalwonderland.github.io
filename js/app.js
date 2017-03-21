@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 import Helpers from './utils/helpers';
 
@@ -10,7 +10,7 @@ const Exoskeleton = require('exoskeleton');
 require('respimage');
 
 export default (function() {
-    'use strict';
+    // 'use strict';
 
     // ----------------------------------
     // GLOBAL NAMESPACE
@@ -32,10 +32,10 @@ export default (function() {
     App.EVENTS = EVENTS;
 
     /**
-     * Create custom view with own properties and
-     * take this view in our modules
-     * register only one reference to our global library Exoskeleton
-     */
+    * Create custom view with own properties and
+    * take this view in our modules
+    * register only one reference to our global library Exoskeleton
+    */
     App.ComponentView = function(options) {
         Exoskeleton.View.call(this, options);
     };
@@ -55,8 +55,8 @@ export default (function() {
     App.ComponentCollection.extend = Exoskeleton.Collection.extend;
 
     /**
-     * Add our Mixin to our View object.
-     */
+    * Add our Mixin to our View object.
+    */
     App.ComponentView.classMixin = Helpers.classMixin;
 
     // Feature detection
@@ -155,8 +155,8 @@ export default (function() {
     // ----------------------------------
 
     /**
-     * Triggers
-     */
+    * Triggers
+    */
 
     // Trigger global resize event
     window.onresize = function(e) {
