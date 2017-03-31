@@ -21140,6 +21140,7 @@ input.searchbox:focus {
   width: 50%;
   text-align: left;
   background-color: #bcf1fa;
+  z-index:15;
   margin-left: -20px; }
   .hero-message h1 {
     color: #f54320;
