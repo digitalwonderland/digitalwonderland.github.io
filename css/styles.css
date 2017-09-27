@@ -24484,7 +24484,8 @@ button.btn-steeze:hover {
     list-style: none;
     padding-left: 0;
     text-align: left;
-    background: #f54320;
+    background: url(../img/geometrics.jpeg);
+    background-size: cover;
     opacity: 0.8;
     transition: .2s all linear;
     display: flex;
