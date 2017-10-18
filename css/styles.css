@@ -28892,3 +28892,13 @@ head {
     page-break-after: avoid; } }
 
 /*# sourceMappingURL=styles.css.map */
+
+/*custom styling for front page*/
+
+#portfolio{
+	display:none;
+}
+
+section.call-to-action.get-in-touch.good-work-blank{
+	display:none;
+}
